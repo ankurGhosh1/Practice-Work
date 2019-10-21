@@ -2,18 +2,31 @@
     box-sizing: border-box;
     font-family: 'Baloo Bhai', cursive;
 }
+body {
+    margin: 0;
+    padding: 0;
+}
 .cover{
     background-image: url("cover-drum.jpg");
-    background-size: cover;
+    background-size: 100% 110%;
     height: 100vh;
+    height: 100%;
+    width: 100%;
     position: relative;
     margin: 0;
     padding: 0;
 }
+.logo img{
+    height: 100px;
+    width: 100px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
 .songs{
     position: fixed;
-    margin-top: 320px;
-    margin-left: 120px;
+    margin-top: 240px;
+    margin-left: 160px;
+    text-align: center;
 }
 .songs button{
     padding: 20px;
@@ -22,20 +35,40 @@
     background-color: transparent;
     color: white;
     font-size: 1.5rem;
+    outline: none;
 }
 .songs button:hover{
     background-color: transparent;
     transition: 0.6s ease;
-    border: 2px solid yellow;
+    border: 2px solid orangered;
     cursor: pointer;
     color: white;
 }
-.shadow-drop-2-center {
-    -webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
-            animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
-}
 .songs button:active{
     outline: none;
+}
+
+select {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cover select{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -50px;
+    background-color: transparent;
+    color: orangered;
+    border: transparent;
+    outline: none;
+    font-size: 34px;
+}
+.cover select option {
+    margin: 40px;
+    background: orangered;
+    color: white;
 }
 .songs :first-child{
     margin-left: 40px;
