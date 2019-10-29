@@ -1,70 +1,70 @@
-body{
-    margin: 0;padding: 0;
+body {
+    margin: 0;
+    padding: 0;
 }
-li{
+ul{
     list-style-type: none;
 }
-.headnbanner{
-    background-image: url("banner.jpg"); background-size: cover; height: 100vh; 
+.banner{
+    background-image: url(banner.jpg); background-size: cover; height: 100vh; 
 }
-.headnbanner img{
-    height: 120px; width: 120px; margin-left: 25px;
+.top-bar{
+    background-color: #3000DB; color: #eeeeee; height: 30px; padding-left: 200px;
+}
+.top-bar p{
+    display: inline-block; margin-left: 25px; margin-top: 5px; font-family: 'Oswald', sans-serif;
+}
+ .top-bar a{
+    display: inline; color: #ffffff; text-decoration: none; font-family: 'Oswald', sans-serif;
 }
 .nav{
-    background-color: transparent;
+    background-color: #ffffff; height: 10vh;
+}
+.logo img{
+    height: 70px; width: 150px; float: left; margin-top: 2px; padding-left: 225px;
 }
 .nav ul{
-    float: right; padding-top: 45px; margin-right: 50px;
+    float: right; padding: 10px 200px 0px 0px; 
 }
 .nav ul li{
-    display: inline-block; padding: 5px 25px 5px 25px; margin-left: 15px; border: 3px solid rgba(255, 255, 255); 
-}
-.nav ul li:hover{
-    border: 3px solid #92DA00; background-color: #92DA00; cursor: pointer;
+    display: inline-block; margin-right: 75px;
 }
 .nav ul li a{
-    text-decoration: none; color: #012F62; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none; color: #111111; font-family: 'Oswald', sans-serif; font-size: 18px;
 }
 .nav ul li a:hover{
-    color: rgb(255, 255, 255); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 3px solid #3de813; 
 }
-.headnbanner h1{
-    font-family: 'Josefin Sans', sans-serif; font-size: 50px; text-align: center; width: 50%; color: #92DA00;
+.banner-text{
+    font-size: 25px; padding: 250px 0px 0px 225px; font-family: 'Merriweather', serif;
+
 }
-.headnbanner p{
-    font-family: 'Lobster', cursive; font-size: 25px; width: 40%; padding: 0px 0px 0px 20px; margin: 0px 0px 0px 20px;
-}
-.headnbanner h3{
-    width: 50%; text-align: center; font-size: 30px; color: #92DA00;
-}
-.headnbanner button{
-    background-color: #92DA00; color: #000000; padding: 10px 25px 10px 25px; margin: 40px 0px 0px 280px; outline: none; border-radius: 35px; border-style: none; text-transform: uppercase; font-weight: bold;
-}
-.headnbanner button:hover{
-    background-color: #012F62; cursor: pointer; color: #000000; text-transform: uppercase; 
+.banner-text span{
+    font-size: 100px; color: #ffffff; padding: 5px; font-weight: bold; font-family: 'Merriweather', serif;
 }
 .about-us{
-    background-image: url(aboutus.jpg); background-size: 100% 100%; background-repeat: no-repeat; margin: 0; padding: 0; display: inline-block; height: 85vh;
+    background-color: #ffffff; padding: 25px;
 }
-.consec{
-    width: 60%; background-color: #000000; background-size: 100%; margin: 0; padding: 0; display: inline-block; transform: skew(-20deg); height: 85vh; margin-left: -105px;
+.about-us img{
+    width: 50%; float: left;
 }
-.about-us h2{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; width: 50%; text-align: center; color: #92DA00; margin: 0 auto; padding: 10px 0px 0px 0px;
+#top-text{
+    font-family: 'Italianno', cursive; line-height: 2%;
+}
+.about-content h1{
+    font-size: 35px;
+}
+.about-content p{
+    font-size: 20px; padding: 15px;
+}
+.about-content button{
+    padding: 10px 25px 10px 20px; border-radius: 35px; border-style: none; outline: none; cursor: pointer; font-weight: bold; text-align: center; background-color: transparent; border: 2px solid #3de813; text-transform: uppercase;
+}
+.about-content button:hover{
+    color: #3de813; border: 2px solid #3de813;
+}
+.mid-sec{
+    background-image: url(midsec.jpg); 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
