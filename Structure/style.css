@@ -64,7 +64,7 @@ ul{
     color: #3de813; border: 2px solid #3de813;
 }
 .mid-sec{
-    background-image: url(midsec.jpg); background-size: cover; height: 35vh; margin-top:-22px;
+    background-image: url(midsec.jpg); background-size: cover; height: 35vh; 
 }
 .mid-sec p{
     font-family: 'Oswald', sans-serif; font-size: 20px; padding: 100px 0px 0px 225px; line-height: 100%; 
@@ -95,4 +95,43 @@ ul{
 }
 .footer{
     height: 35vh; background-color: #3000DB; margin: 50px 0px 0px 0px;
+}
+.footer h3{
+    font-weight: bold; font-size: 22px; display: inline; text-align: center; padding-bottom: 4px;
+}
+.footer a{
+    text-decoration: none; color: #ffffff; font-family: 'Oswald', sans-serif; 
+}
+.footer ul li{
+    line-height: 160%;
+}
+.f-ctc{
+    padding: 50px 0px 0px 200px; line-height: 160%; color: #ffffff; font-family: 'Oswald', sans-serif;display: inline-block;
+}
+.f-cmp{
+    color: #ffffff; font-family: 'Oswald', sans-serif; display: inline-block; padding: 50px 0px 0px 80px; line-height: 160%; margin-left: 20px;
+}
+.f-cmp ul li{
+    margin-left: -38px;
+}
+.f-use{
+    color: #ffffff; font-family: 'Oswald', sans-serif; display: inline-block; margin: 10px 0px 0px 150px;
+}
+.f-use h3{
+    margin-top: 100px;
+}
+.f-use ul li{
+    margin-left: -38px;
+}
+.f-sub{
+    color: #ffffff; font-family: 'Oswald', sans-serif; display: inline-block; float: right; padding: 50px 200px 0px 0px;
+}
+.f-sub input{
+    padding: 7px 15px 7px 15px; background-color: transparent; text-align: center; color: #ffffff; text-transform: uppercase;
+}
+.f-sub button{
+    padding: 7px 15px 7px 15px; background-color: #ffffff; text-align: center; outline: none; text-transform: uppercase;
+}
+.btm-bar{
+    background-color: #3000DB; color: #eeeeee; height: 60px; padding-left: 200px; padding-top: 15px; border-top: 2px solid #6b6565; margin-top: 5px;
 }

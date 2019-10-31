@@ -7,7 +7,7 @@
 </head>
 <body>
     <div class="full">
-        <div class="banner">
+        <div class="banner" id="Home">
             <div class="top-bar">
                 <p>info@agrud.com</p>
                 <p><a href="#">Contact</a></p>
@@ -16,15 +16,15 @@
             <div class="nav">
                 <div class="logo"><img src="logo.png" /></div>
                 <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#Home">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#services">Services</a></li>
+                  <li><a href="#contact">Contact Us</a></li>
                 </ul>
             </div>
             <p class="banner-text">We Make <br /><span>Awesome</span><br /> business people successful in changing world.</p>
         </div>
-        <div class="about-us">
+        <div class="about-us" id="about">
             <img src="about.png" />
                 <div class="about-content">
                     <p id="top-text">About Us</p>
@@ -33,13 +33,13 @@
                     <button>Read More</button>
                 </div>
         </div>
-        <div class="mid-sec">
+        <div class="mid-sec" id="contact">
             <div>
                <p><span>We Are Awesome</span> <br /> <br />Join with us to discover the world.</p> 
                <button>Sign Up Now</button>
             </div>
         </div>
-        <div class="service">
+        <div class="service" id="services">
             <h2>The Best <br /> <br /><span>Our Services</span></h2>
             <table class="tab1">
                 <tr>
@@ -69,7 +69,41 @@
             </table>   
         </div>
         <div class="footer">
-            
+            <div class="f-ctc">
+                <h3>Contact Us <br /></h3>
+                Address: <br />India <br />
+                Phone: <br />8697707501 <br />
+                Email: <br />info@agrud.com
+            </div>
+            <div class="f-cmp"> 
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#">Our Team</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </div>
+            <div class="f-use">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="#">Our History</a></li>
+                    <li><a href="#">Mission & Vision</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                </ul>
+            </div>
+            <div class="f-sub">
+                <h3>Subscribe Now</h3>
+                <p>lorem ipsum lorem ipsum lorem ipsum <br />lorem ipsum lorem ipsum.</p>
+                <input placeholder="Enter Email Address"></input>
+                <button>Subscribe</button> 
+            </div>
+            <div class="btm-bar">
+                <p>Copyright | All rights reserved by Ankur</p>
+            </div>
         </div>
     </div>
 </body>
