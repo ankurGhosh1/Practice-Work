@@ -1,0 +1,51 @@
+body{
+    margin: 0; padding: 0; 
+}
+
+/*1st banner section*/
+
+.banner{
+    background-image: url(banner.jpg); height: 110vh; background-size: cover;
+}
+.banner img{
+    margin-left: -44px;
+}
+.banner ul{
+     float: right; 
+}
+.banner ul li{
+    display: inline-block; font-family: 'Poppins', sans-serif; font-size: 15px; padding: 15px 50px 0px 0px; font-weight: bold; text-transform: uppercase;
+}
+.banner ul li a{
+    text-decoration: none; color: #ffffff;
+}
+.banner ul li a:hover{
+    color: #57FEFF;
+}
+.banner ul li a:active{
+    border-bottom: 2px solid #57FEFF; 
+}
+.text-banner{
+    line-height: 500%; padding: 0px 0px 0px 100px; display: inline-block; vertical-align: top;
+}
+.banner h2{
+    color: #ffffff; font-family: 'Poppins', sans-serif; font-size: 62px; text-transform: uppercase;
+}
+.banner h2 span{
+    color: #57FEFF;
+}
+.banner p{
+    color: #ffffff; font-family: 'Poppins', sans-serif; font-size: 18px; line-height: 120%; 
+}
+.banner button{
+    background-color: #57FEFF; font-family: 'Poppins', sans-serif; text-transform: uppercase; text-align: center; color: #2C295E; border-style: none; border-radius: 6px; padding: 15px 45px 15px 45px; outline: none; cursor: pointer; margin: 30px 0px 0px 0px; font-size: 16px; font-weight: bold; text-transform: uppercase; 
+} 
+.banner button:hover{
+    background-color: #ffffff; 
+}
+.banner button a{
+    text-decoration: none; 
+}
+.banner video{
+    display: inline-block; padding: 0px 0px 0px 112px; outline:none;
+}
