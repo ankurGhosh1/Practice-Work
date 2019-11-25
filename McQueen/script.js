@@ -6,6 +6,10 @@ var i;
 for (i=0; i<imgList.length; i++){
     imgList[i].addEventListener('dblclick', function(){
         this.requestFullscreen();
+        
+        var elm = document.createElement('button');
+        elm.style.color = 'red';
+        elm.style.border = '2px solid yellow';
     });
 }
 
@@ -13,7 +17,7 @@ var imgList= document.querySelectorAll('.img-hol img');
 
 var i;
 for (i=0; i<imgList.length; i++){
-    imgList[i].addEventListener('click', function(){
+    imgList[i].removeEventListener('dblclick', function(){
         this.exitFullscreen();
     });
 }
