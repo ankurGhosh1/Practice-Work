@@ -1,0 +1,19 @@
+h1{
+    font-size: 32px; color: #ffffff; text-align: center;
+}
+.full{
+    height: 500px; width: 350px; border: 10px solid #ACC2DF; background-color: #6395EC;
+}
+
+.full input{
+    height: 40px; width: 250px; font-size: 32px; padding: 10px 10px 10px 10px; margin: 45px 10px 10px 35px;
+}
+.operators button{
+    background-color: #B0C4DD; font-size: 32px; width: 50px; height: 50px; margin-left: 13.5px; border-radius: 6px;
+}
+.operators{
+    margin: 30px; 
+}
+.svalue{
+    width: 30%; padding: 10px 10px 10px 10px; 
+}
