@@ -65,15 +65,27 @@ function division(){
     document.querySelector('h2').style.textAlign = "center"
 }
 
+function search(){
+    var lang = document.querySelector('svalue').value;
+    function books(lang);
+}
 
-var xhttp = new XMLHttpRequest(); var fulldata;
+function books(language){
+
+var xhttp = new XMLHttpRequest(); 
+var fulldata;
 
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         fulldata = JSON.parse(this.responseText);
+        for (var i=0; i<fulldata.length; i++){
+            if(fulldata[i].language = lang)
+            console.log(fulldata[i]);
+        }
     }
 }
 
 xhttp.open("GET", "https://raw.githubusercontent.com/attainu-falcon/falcon-course-module/master/coding-challenges/data/books.json", true);
 xhttp.send();
 
+}
