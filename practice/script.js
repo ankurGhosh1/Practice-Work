@@ -62,30 +62,27 @@ function division(){
     document.querySelector('h2').style.border = "3px solid #000000";
     document.querySelector('h2').style.width = "50%";
     document.querySelector('h2').style.margin = "0 auto";
-    document.querySelector('h2').style.textAlign = "center"
+    document.querySelector('h2').style.textAlign = "center";
 }
 
-function search(){
-    var lang = document.querySelector('svalue').value;
-    function books(lang);
-}
+var xhttp = new XMLHttpRequest();
+    var fulldata;
 
-function books(language){
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            fulldata = JSON.parse(this.responseText);
+            for(var i = 0;i<fulldata.length;i++){
+            var newEl = document.createElement('ul');
+            newEl.innerHTML = fulldata[i].author + " " + fulldata[i].language + " " + fulldata[i].title + " " + fulldata[i].link;
+            document.querySelector('.div2').appendChild(newEl);
 
-var xhttp = new XMLHttpRequest(); 
-var fulldata;
-
-xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-        fulldata = JSON.parse(this.responseText);
-        for (var i=0; i<fulldata.length; i++){
-            if(fulldata[i].language = lang)
-            console.log(fulldata[i]);
+            }
         }
     }
-}
 
-xhttp.open("GET", "https://raw.githubusercontent.com/attainu-falcon/falcon-course-module/master/coding-challenges/data/books.json", true);
-xhttp.send();
+    xhttp.open("GET", "https://raw.githubusercontent.com/attainu-falcon/falcon-course-module/master/coding-challenges/data/books.json ", true);
+    xhttp.send();
 
-}
+    document.querySelector('.div2 ul li').style.border = "3px solid #000000";
+
+

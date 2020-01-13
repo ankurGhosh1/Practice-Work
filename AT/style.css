@@ -49,3 +49,33 @@ body{
 .banner video{
     display: inline-block; padding: 0px 0px 0px 112px; outline:none;
 }
+
+/* About Us */
+
+.about-us{
+    height: 90vh; margin: 0 auto;
+}
+.about-us h1{
+    color: #ef916d; font-family: 'Poppins', sans-serif; font-size: 62px; font-weight: bold; line-height: 120%; padding: 50px 0px 0px 100px;
+}
+.about-us h1 span{
+    color: #3a2f7e; 
+}
+.about-us p{
+    font-family: 'Poppins', sans-serif; font-size: 18px; line-height: 120%; color: #676767; padding: 50px 0px 0px 100px;
+}
+
+
+
+/*
+.card {
+ Add shadows to create the "card" effect 
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+}
+On mouse-over, add a deeper shadow 
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+scale: (0,3);
+}
+*/
