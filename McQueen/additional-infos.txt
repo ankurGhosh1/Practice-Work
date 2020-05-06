@@ -1,0 +1,14 @@
+Client ID:  550039b8064e4e2dad5f49ad48f947ab;
+Client Secret: 1273398447324861af17273f303d2358;
+Redirect URI: http://localhost:8888/callback & http://localhost:8888/home
+
+
+
+
+
+
+
+
+
+
+Code in URL: AQAShypIYn3fd3DT-ILy49nTZbIpQF1XcbIlj4_nhGwL1TJg1Yi6cn2QuOLT7_P6rXa02zLsBNAaTcuXDAqBd8DnOEHdtUYLcH5PBp3OOufojruKS3hP1iYU5mH6nAvBdPU5qZM4LDXtD6bRRPYOuEbLFqDwMwyd3G71iFN1Skcw7fcdFfjdTDQd7607W30d

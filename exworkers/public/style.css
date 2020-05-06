@@ -1,0 +1,216 @@
+/* universal code */
+
+*{
+    color: #070600!important; font-family: 'Baloo Bhaina 2', cursive; 
+}
+a{
+    text-decoration: none;
+}
+.container-fluid{
+    margin: 0; padding: 0;
+}
+.full{
+    background-color: #F7F7FF; border: 0px; margin: 0px;
+}
+.col-md-6{
+    padding: 0px;
+}
+
+/* nav bar */
+
+.navbar-brand img{
+    height: 100px; width: 100px;
+}
+.navbar{
+    background-color: #05204A!important; width: 100%; 
+}
+.navbar-nav{ 
+    flex-direction: row; right: 25px;
+}
+.nav-item{
+    padding: 25px;
+}
+
+/* nav buttons */
+
+.btn-outline-primary{
+    border-color: #F7F7FF; color: #F7F7FF!important;
+}
+.btn-outline-primary a{
+    border-color: #F7F7FF; color: #F7F7FF!important;
+}
+.btn-outline-primary a:hover{
+    background-color: #F7F7FF; border-color: #F7F7FF; color: #070600!important;
+}
+.btn-outline-primary:hover{
+    background-color: #F7F7FF; border-color: #F7F7FF; color: #070600!important;
+}
+
+/* banner section */
+
+.banner{
+    background-image: url(banner.jpg); background-size: cover; height: 120vh;
+}
+.banner h1{
+    padding: 15% 5% 3% 5%; font-size: 5.3rem; color: #05204A!important; font-weight: bold;
+}
+.banner h1 span{
+    color: #94b0da!important;
+}
+
+/* sub banner section */
+
+.sub-banner{
+    padding: 0 5%; 
+}
+.sub-banner h3{
+    font-size: 2.5rem; font-family: 'Libre Franklin', sans-serif; line-height: 150%;
+}
+.sub-t span{
+    color: #94b0da!important; background-color: #05204A; line-height: 350%; padding: 0px 15px;
+}
+
+/* sub banner setion two */
+
+.sub-banner-two{
+    padding: 6% 5%; line-height: 150%;
+}
+.sub-banner-two h3{
+    font-size: 2.5rem; font-family: 'Libre Franklin', sans-serif; line-height: 150%;
+}
+.sub-banner-two h3 span{
+    color: #05204A!important; background-color: #94b0da; padding: 0px 12px; 
+}
+.sub-banner-two h2{
+     font-size: 2.2rem; padding: 0px 0px 30px 0px; text-decoration: underline; color: #8f91a2!important;
+}
+.sub-banner-two button{
+    background-color: #070600!important; color: #f7f7ff!important; border-radius: 5rem; font-size: 1.3rem; border-color: #070600!important;
+}
+.sub-banner-two button:hover{
+    background-color: #f7f7ff!important; color: #070600!important; border-radius: 5rem; font-size: 1.3rem; border-color: #070600!important;
+}
+
+/* about section */
+
+.about{
+    overflow: hidden; margin-top: 2px; background-color: transparent; position: relative;
+}
+.about-left{
+    padding: 10% 5%; text-align: right; font-family: 'Libre Franklin', sans-serif; line-height: 150%;
+}
+.about-left h2{
+    background-color: #070600; color: #f7f7ff!important; line-height: 150%; padding: 10px;
+}
+.about-right{
+    height: 60vh; border-radius: 5%; 
+}
+.img-one{
+    position: absolute; top: 60px; right: 30px; height: initial; width: inherit; box-shadow: 5px 5px 10px #2a2a2a; border-radius: 90px; z-index: 1;
+}
+.about-right-two{
+    padding: 10% 5%; text-align: left; font-family: 'Libre Franklin', sans-serif;
+}
+.about-right-two h2{
+    background-color: #070600; color: #f7f7ff!important; line-height: 150%; padding: 10px;
+}
+.about-left-two{
+    height: 60vh; 
+}
+.img-two{
+    position: absolute; bottom: 5px; left: 30px; height: initial; width: inherit; box-shadow: 5px 5px 10px #2a2a2a; border-radius: 90px;
+}
+.canvas-interactive-wrapper {
+    position: relative;
+    height: inherit;
+    text-align: center;
+}
+.canvas-interactive-wrapper canvas {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+/* .canvas-interactive-wrapper .cta-wrapper {
+    
+} */
+.canvas-interactive-wrapper .cta-wrapper a {
+    position: relative;
+    display: inline-block;
+    padding: 3px 7px;
+    border: solid 1px transparent;
+    margin-right: 50px;
+    z-index: 1;
+    text-decoration: none;
+    color: #222;
+    transition: border .3s;
+}
+.canvas-interactive-wrapper .cta-wrapper a.active {
+    border-color: #222;
+}
+.cta-wrapper h1{
+z-index: 1;
+}
+
+/* features */
+
+#canvas-basic {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+.features{
+    overflow: hidden;  width: 100%; height: auto; background-color: #05204a;
+}
+.features h1{
+    text-align: center; padding: 15px; font-size: 3.5rem; font-family: 'Libre Franklin', sans-serif; color: #94b0da!important;
+}
+.col-lg-6{
+    padding: 3% 5%; text-align: center; margin: 0 auto;
+}
+.card{
+    background-color: transparent;
+}
+.card h3{
+    color: #8f91a2!important;
+}
+.card p{
+    color: #94b0da!important;
+}
+.card-body h3 span{
+    background-color: #94b0da!important; padding: 5px 10px; line-height: 250%;
+}
+.bottom{
+    background-color: #070600 !important; overflow: hidden; bottom: 0; 
+}
+.bottom h3{
+    color: #F7F7FF !important; text-align: center; font-size: 1rem;  width:100%; position: absolute; bottom: 0;
+}
+.foot{
+    background-color: #070600 !important; overflow: hidden; bottom: 0;
+}
+.footp{
+    color: #F7F7FF!important; text-align: center; font-size: 1rem; width:100%; vertical-align: center; margin-top: 1%;
+}
+
+
+
+
+
+
+@media (max-width: 800px){
+    .banner h1{
+        padding: 15% 5% 3% 5%; font-size: 2rem; color: #05204A!important; font-weight: bold;
+    }
+}

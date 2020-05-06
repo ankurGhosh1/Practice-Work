@@ -1,0 +1,20 @@
+<body>
+    <div class="container-fluid alljobs">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                {{#each allposts}}
+                <div class="card alljobcard" style="width: 100%;">
+                    <div class="card-body">
+                        <h4 class="card-title">{{this.topic}}<h5>{{this.firstname}} {{this.lastname}}</h5></h4>
+                        <h6 class="card-subtitle mb-2 text-muted">{{this.type}}</h6>
+                        <p class="card-text">{{this.details}}</p>
+                        <a href="#" class="card-link">Apply</a>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+</body>

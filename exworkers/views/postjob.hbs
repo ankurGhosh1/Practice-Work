@@ -1,0 +1,33 @@
+<div class="container-fluid fullpost">
+  <form class="postjob was-validated" action="/posts" method="POST"> 
+    <div class="form-row">
+      <div class="col-md-6 mb-3 ">
+        <label for="validationServer02">First name</label>
+        <input type="text" class="form-control is-valid" id="validationServer02" placeholder="First Name" name="firstname" required>
+      </div>
+      <div class="col-md-6 mb-3">
+        <label for="validationServer02">Last name</label>
+        <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Last Name" name="lastname" required>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="col-md-7 mb-3">
+        <label for="validationServer02">Topic or Subject</label>
+        <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Topic or Subject" name="topic" required>
+      </div>
+      <div class="col-md-5 mb-3">
+        <label for="validationServer02">Help or Professional Support</label>
+        <input type="text" class="form-control is-valid" id="validationServer02" name="type" placeholder="Are you looking for 'Help' or 'Professional Support'" required>
+      </div>
+    </div>
+      <div class="mb-3">
+        <label for="validationTextarea">Problem Description</label>
+        <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Problem Description" name="details" required></textarea>
+        <br />
+        <button class="btn btn-primary" type="submit" action="/post" method=" POST" >Submit Form</button>      
+        </div>
+  </form>
+  <nav class="navbar bottom navbar-dark bg-dark">
+        <h3>&copy; indianLeo</h3>>
+  </nav>
+</div>

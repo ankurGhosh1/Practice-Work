@@ -1,0 +1,19 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scrapper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ankur",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "j-pdfjson": "^1.1.9",
+    "pdf-parse": "^1.1.1",
+    "pdfreader": "^1.0.7",
+    "xmlhttprequest": "^1.8.0"
+  }
+}

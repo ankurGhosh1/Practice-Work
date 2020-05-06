@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="postjob.css">
+    <link rel="stylesheet" href="alljobs.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar">
+            <a class="navbar-brand" href="/"><img src="logo.png" alt="logo" /></a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="/post"><button type="button" class="btn btn-outline-primary">Post A Job</button></a>
+                </li>
+                <li class="nav-item">
+                    <a href="/login"><button type="button" class="btn btn-outline-primary">Login / Sign-Up</button></a>
+                </li>
+            </ul>
+        </nav>
+    </div>   
+
+    {{{body}}}
+
+    
+
+<script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+<script src="granim.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="../animation.js"></script>
+<script>
+var granimInstance = new Granim({
+    element: '#canvas-interactive',
+    name: 'interactive-gradient',
+    elToSetClassOn: '.canvas-interactive-wrapper',
+    direction: 'diagonal',
+    isPausedWhenNotInView: true,
+    stateTransitionSpeed: 500,
+    states : {
+        "default-state": {
+            gradients: [
+                ['#94b0da'],
+                ['#05B2DC'],
+                ['#004385'],
+                ['#05204a'],
+                ['#001F9C'],
+            ],
+            transitionSpeed: 8000
+        },
+    }
+});
+
+var typed = new Typed('#c-text', {
+    strings: ["experienced-", "exemplary-", "ex-"],
+    typeSpeed: 100,
+    backDelay: 1000,
+    smartBackspace: true,
+    backSpeed: 100,
+    loop: true,
+    loopCount: Infinity
+});
+
+</script>
+
+</body>
+</html>

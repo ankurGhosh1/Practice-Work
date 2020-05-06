@@ -1,17 +1,18 @@
-var xhttp = new XMLHttpRequest(); 
-var data;
+var express = require('express');
+var hbs = require('hbs');
+var app = express();
 
-xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-       // Typical action to be performed when the document is ready:
-       data = xhttp.responseText;
-       var output = document.querySelector('.content');
-       output.innerHTML = data.ability + " " + data.name; 
-    }
-};
+app.use(express.static(__dirname +'/public'));
 
-xhttp.open("GET", "https://pokeapi.co/api/v2/", true);
-xhttp.send();
+app.set('view-engine', 'hbs');
 
-var con = document.querySelector('.content');
-con.style.color = "white";
+app.get('/home', function(req, res){
+    res.render('home.hbs');
+})
+
+app.get('/music', function(req, res){
+    res.render('music.hbs');
+})
+
+
+app.listen(3000);

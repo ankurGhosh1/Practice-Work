@@ -1,5 +1,6 @@
 //full screen effect on click
-
+var jsdom = require("jsdom");
+var JSDOM = jsdom.JSDOM;
 var imgList= document.querySelectorAll('.img-hol img');
 
 var i;
@@ -55,3 +56,4 @@ slider.addEventListener('mousedown', (e) => {
     slider.scrollLeft = scrollLeft - walk;
     console.log(walk);
 });
+
